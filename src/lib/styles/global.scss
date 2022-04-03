@@ -1,0 +1,31 @@
+@import "./fonts.scss";
+
+:root {
+  font-family: "Cascadia", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  // Colors
+  --black: #191d22;
+  --gray: #21272e;
+  --white: #ffffff;
+  --green: #55ba97;
+  --green-alpha: rgba(85, 186, 151, 0.3);
+  --dark-green: #2a4c46;
+
+  // Theme
+  --background: var(--black);
+  --background-light: var(--gray);
+  --background-accent-alpha: var(--green-alpha);
+
+  --foreground: var(--white);
+  --foreground-accent: var(--green);
+}
+
+html {
+  background: var(--background);
+  color: var(--white);
+}
+
+body {
+  margin: 0;
+}
