@@ -1,11 +1,12 @@
 <script lang="ts">
-  import Section from "./lib/components/atoms/Section.svelte";
+  import { _ } from "svelte-i18n";
+  import initI18n from "./lib/utils/i18n";
+
+  initI18n("nl");
 </script>
 
 <main>
-  <Section>
-    <p>Test =></p>
-  </Section>
+  <p>{$_("firstname")}</p>
 </main>
 
 <style>

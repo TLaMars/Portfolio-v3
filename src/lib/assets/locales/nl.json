@@ -1,0 +1,11 @@
+{
+  "firstname": "thomas",
+  "lastname": "lamars",
+  "intro": {
+    "title": "<span>.is()</span.",
+    "subtitle": "<span>Web Developer</span> @ <span>Triple</span>, Alkmaar",
+    "about": "Hi, Ik ben Thomas Lamars een 22 jaar oude web developer bij beroep who loves to create and learn new stuff. But also like to basketball, cook and game.",
+    "button": "<span>about(</span>'more'<span>)</span>",
+    "image": "<span>.image()</span>"
+  }
+}
