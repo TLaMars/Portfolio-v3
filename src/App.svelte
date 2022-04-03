@@ -1,14 +1,12 @@
 <script lang="ts">
+  import Section from "./lib/components/atoms/Section.svelte";
 </script>
 
 <main>
-  <p>Test =></p>
+  <Section>
+    <p>Test =></p>
+  </Section>
 </main>
 
 <style>
-  main {
-    text-align: center;
-    padding: 1em;
-    margin: 0 auto;
-  }
 </style>
