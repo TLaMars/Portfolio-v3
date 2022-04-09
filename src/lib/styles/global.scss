@@ -14,6 +14,7 @@
   --dark-green: #2a4c46;
 
   // Border radius
+  --border-radius-xs: 0.5rem;
   --border-radius-s: 1rem;
   --border-radius-m: 2rem;
   --border-radius-l: 10rem;
@@ -42,4 +43,8 @@ html {
 body {
   margin: 0;
   font: 400 1.8rem/1.5 var(--font);
+}
+
+span {
+  color: var(--green);
 }

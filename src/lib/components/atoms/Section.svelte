@@ -1,4 +1,8 @@
-<section class="section">
+<script lang="ts">
+  export let flex = false;
+</script>
+
+<section class="section" class:flex>
   <slot />
 </section>
 
@@ -6,11 +10,14 @@
   .section {
     margin-left: auto;
     margin-right: auto;
-    max-width: 136.4rem;
-    width: 136.4rem;
+    width: 120rem;
+    max-width: calc(100% - 4rem);
 
     padding-left: 2rem;
     padding-right: 2rem;
-    max-width: calc(100% - 4rem);
+  }
+
+  .flex {
+    display: flex;
   }
 </style>
