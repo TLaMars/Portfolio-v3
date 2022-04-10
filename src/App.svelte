@@ -1,5 +1,6 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
+  import Intro from "./lib/components/organisms/Intro.svelte";
   import initI18n from "./lib/utils/i18n";
   import Navigation from "./lib/components/molecules/Navigation.svelte";
   import { retrievePersisted } from "./lib/utils/store-persisted";
@@ -10,4 +11,5 @@
 
 <main>
   <Navigation />
+  <Intro />
 </main>
